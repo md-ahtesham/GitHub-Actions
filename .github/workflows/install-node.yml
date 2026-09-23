@@ -1,6 +1,6 @@
 name: Install Node
 on:
-  push:
+  workflow_dispatch:
 jobs:
   node-install:
     runs-on: ubuntu-latest
